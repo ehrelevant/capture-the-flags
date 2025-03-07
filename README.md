@@ -17,7 +17,7 @@ The Python client's dependencies are managed using [`poetry`](https://github.com
 poetry install
 ```
 
-## Linting & Formatting
+### Linting & Formatting
 
 Before pushing a commit, you may want to run the [`ruff`](https://github.com/astral-sh/ruff) linter and formatter.
 
@@ -29,7 +29,7 @@ poetry run ruff check
 poetry run ruff format
 ```
 
-## Running Tests
+### Running Tests
 
 The [`pytest`](https://github.com/pytest-dev/pytest) framework is used to write and run tests. These tests may be executed by running:
 
