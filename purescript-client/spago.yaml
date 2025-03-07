@@ -1,0 +1,23 @@
+package:
+  name: client
+  dependencies:
+    - arrays
+    - console
+    - cs150241project-lib
+    - effect
+    - integers
+    - lists
+    - maybe
+    - prelude
+    - simple-json
+    - tuples
+  test:
+    main: Test.Main
+    dependencies: []
+workspace:
+  packageSet:
+    registry: 61.3.0
+  extraPackages:
+    cs150241project-lib:
+      git: https://github.com/UPD-CS150-241/cs150241project-lib/
+      ref: v0.1.0
